@@ -1,0 +1,5 @@
+hoogte_van_driehoek = input ("Hoogte:")
+basis_van_driehoek = input ("Basis:")
+
+print( float(basis_van_driehoek) * float(hoogte_van_driehoek) / 2)
+

@@ -1,0 +1,39 @@
+# commentarieer je oefeningen
+
+# /r nieuwe lijn
+# /t nieuwe tab
+# variabelen met KLEINER LETTER
+
+
+# gebruik van variabelen
+
+naam = "Van Zwol"
+voornaam = "Tibo"
+
+
+#  concatenatie
+
+print ("naam:" + naam)
+
+# placeholder/format type
+
+print ("naam:{0} met Voornaam: {1}".format(naam,voornaam))
+
+# data opvragen
+
+naam = input("geef mij jouw naam")
+
+getal1= input("geef mij getal1")
+getal2= input("geef mij getal2")
+
+# datatype
+
+#print(type(naam))
+print(type(1))
+print(getal1+getal2)
+
+
+
+
+print ("naam:{0} met Voornaam: {1}".format(naam,voornaam))
+

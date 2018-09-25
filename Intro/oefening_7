@@ -1,0 +1,8 @@
+days = input("geef het aantal dagen op:")
+hours = input("geef het aantal uren op:")
+minutes = input("geef het aantal minuten op:")
+seconds = input("geef het aantal seconden op:")
+
+int(seconds) + int(minutes*60) + int(hours*60*60) + int(days*60*60*24)
+
+print (float(seconds) + float(minutes)*60 + float(hours)*60*60 + float(days)*60*60*24)

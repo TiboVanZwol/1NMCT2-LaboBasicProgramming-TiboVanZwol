@@ -1,0 +1,7 @@
+seconds = input("geef het aantal seconden op:")
+days = int(seconds) / (60*60*24)
+hours = (int(seconds)-int(days)*60*60*24) / (60*60)
+minutes = (int(seconds)-int(days)*60*60*24-int(hours)*60*60) / 60
+seconds = (int(seconds)-int(days)*60*60*24-int(hours)*60*60-int(minutes)*60)
+
+print ("d:h:m:s-> {0}:{1}:{2}:{3}".format(int(days),int(hours),int(minutes),int(seconds)))

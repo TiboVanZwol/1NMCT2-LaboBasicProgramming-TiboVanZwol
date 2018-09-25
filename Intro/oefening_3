@@ -1,0 +1,5 @@
+naam = input("geef mij jouw naam")
+voornaam = input("geef mij jouw voornaam")
+age = input("geef mij jouw leeftijd")
+
+print("leeftijd: {0} met voornaam: {1} met naam: {2}".format(age,voornaam,naam))

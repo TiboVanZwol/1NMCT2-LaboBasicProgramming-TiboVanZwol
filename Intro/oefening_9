@@ -1,0 +1,4 @@
+n = input("geef een getal op: ")
+nnn=int(n)*int(n)*int(n)
+calc = int(n)+ int(n)*int(n) + int(n)*int(n)*int(n)
+print(nnn)

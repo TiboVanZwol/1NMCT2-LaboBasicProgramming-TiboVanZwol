@@ -1,0 +1,6 @@
+# 0x is hexadecimaal
+# 0b is binair
+# 0o is octa
+
+print (0xFFFAA)
+print (0b10010010)

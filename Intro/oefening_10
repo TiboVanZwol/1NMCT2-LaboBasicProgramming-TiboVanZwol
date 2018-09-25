@@ -1,0 +1,5 @@
+n0 = input("geef een getal op: ")
+n1 = input("geef een getal op: ")
+
+calc = (int(n0) + int(n1)) * (int(n0) + int(n1))
+print("({0} + {1})^2 = {2}".format(n0,n1,calc))
